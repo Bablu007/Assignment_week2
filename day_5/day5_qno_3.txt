@@ -1,0 +1,38 @@
+Types of Testing:-
+
+1. Unit Testing
+It focuses on the smallest unit of software design. In this, we test an individual unit or group of interrelated units. It is often done by the programmer by using sample input and observing its corresponding outputs. 
+
+2. Integration Testing
+The objective is to take unit tested components and build a program structure that has been dictated by design. Integration testing is testing in which a group of components is combined to produce output. 
+
+Integration testing is of four types: (i) Top-down (ii) Bottom-up (iii) Sandwich (iv) Big-Bang 
+(a) Black Box testing:- It is used for validation. 
+In this we ignore internal working mechanism and 
+focuse on what is the output?.
+
+(b) White Box testing:- It is used for verification. 
+In this we focus on internal mechanism i.e.
+how the output is achieved?
+
+3. Regression Testing
+Every time a new module is added leads to changes in the program. This type of testing makes sure that the whole component works properly even after adding components to the complete program. 
+
+4. Smoke Testing
+This test is done to make sure that software under testing is ready or stable for further testing 
+It is called a smoke test as the testing an initial pass is done to check if it did not catch the fire or smoke in the initial switch on. 
+
+5. Alpha Testing
+This is a type of validation testing. It is a type of acceptance testing which is done before the product is released to customers. It is typically done by QA people. 
+
+
+6-Beta Testing
+The beta test is conducted at one or more customer sites by the end-user of the software. This version is released for a limited number of users for testing in a real-time environment 
+
+7-System Testing
+This software is tested such that it works fine for the different operating systems. It is covered under the black box testing technique. In this, we just focus on the required input and output without focusing on internal working. 
+In this, we have security testing, recovery testing, stress testing, and performance testing 
+
+8-Performance Testing
+It is designed to test the run-time performance of software within the context of an integrated system. It is used to test the speed and effectiveness of the program. It is also called load testing. In it we check, what is the performance of the system in the given load.
+

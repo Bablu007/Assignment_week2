@@ -1,0 +1,39 @@
+Functional Requirements: These are the requirements that the end user specifically demands as basic facilities that the system should offer. All these functionalities need to be necessarily incorporated into the system as a part of the contract. These are represented or stated in the form of input to be given to the system, the operation performed and the output expected. They are basically the requirements stated by the user which one can see directly in the final product, unlike the non-functional requirements.
+
+Non-functional requirements: These are basically the quality constraints that the system must satisfy according to the project contract. The priority or extent to which these factors are implemented varies from one project to other. They are also called non-behavioral requirements.
+They basically deal with issues like:
+
+Portability
+Security
+Maintainability
+Reliability
+Scalability
+Performance
+Reusability
+Flexibility
+
+Functional Requirements
+1-A functional requirement defines a system or its component.
+2-Functional requirement is specified by User.
+3-It is mandatory.
+4-It is captured in use case.
+5-Defined at a component level.
+6-Helps you verify the functionality of the software.
+7-Functional Testing like System, Integration, End to End, API testing, etc are done.
+Example-
+1) Authentication of user whenever he/she logs into the system.
+2) System shutdown in case of a cyber attack.
+3) A Verification email is sent to user whenever he/she registers for the first time on some software system.
+
+Non Functional Requirements
+1-A non-functional requirement defines the quality attribute of a software system.
+2-Non-functional requirement is specified by technical peoples e.g. Architect, Technical leaders and software developers.
+3-It is not mandatory.
+4-It is captured as a quality attribute.
+5-Applied to a system as a whole.
+6-Helps you to verify the performance of the software.
+7-Non-Functional Testing like Performance, Stress, Usability, Security testing, etc are done.
+Example-
+1) Emails should be sent with a latency of no greater than 12 hours from such an activity.
+2) The processing of each request should be done within 10 seconds
+3) The site should load in 3 seconds when the number of simultaneous users are > 10000

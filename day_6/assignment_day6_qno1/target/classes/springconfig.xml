@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">
+
+   <context:annotation-config/>
+   <bean id = "citizen" class = "Citizen">
+      <property name="name" value="India"></property>
+      <property name="contactNumber" value="8656227273"></property>
+      <property name="emailId" value="india@gmail.com"></property>
+   </bean>
+   <bean id = "citizen2" class = "Citizen">
+      <property name="name" value="US"></property>
+      <property name="contactNumber" value="8656227273"></property>
+      <property name="emailId" value="Us@gmail.com"></property>
+   </bean>
+   
+   <bean id = "employee" class = "Employee">
+   <property name="name" value="Anshumaan"></property>
+   <property name="id" value="1"></property>
+   <property name="salary" value="2000"></property>
+    <property name="address" ref="address"></property>
+    <property name = "map">
+         <map>
+            <entry key = "one" value-ref = "citizen"/>
+            <entry key = "two" value-ref = "citizen2"/>
+         </map>
+      </property>
+   </bean>
+     <bean id = "address" class = "Address">
+     <property name="state" value="U.P"></property>
+        <property name="pinNo" value="227408"></property>
+   </bean>
+
+  
+</beans>
